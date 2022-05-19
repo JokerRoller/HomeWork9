@@ -7,10 +7,8 @@ body {
 /* ==================== Start ==================== */
 /* ==================== Header ==================== */
 .container-fluid {
-
     height: 108vh;
     position: relative;
-    z-index: -1;
     background: rgba(42, 27, 161, 0.7);
     background: linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
 }
@@ -21,7 +19,6 @@ body {
     bottom: 8vh;
     background-image: url('../../IMG/panorama-3094696_1920.jpg');
     background-size: cover;
-    z-index: -0;
 }
 .navbar {
     background: rgba(0,0,0,0) !important;
@@ -32,13 +29,15 @@ body {
     box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.4);
     display: flex;
     justify-content: center;
+    height: 4.5rem;
 }
-.navbar_custom {
-    width: 100%;
-    height: 20vh;
-}
+
 .row_custom {
-    width: 1125px    !important;
+    /* width: 1125px    !important; */
+    display: flex;
+    font-family: Roboto, sans-serif;
+}
+.container_custom {
     display: flex;
     font-family: Roboto, sans-serif;
 }
@@ -76,7 +75,77 @@ body {
 .collapse_custom {
     justify-content: right;
 }
-/* .navbar-brand_custom.scrolled {
-    background-color: black !important;
-} */
+.scrolling-active {
+    background-color: #3949ab !important;
+    height: 3.5rem !important;
+    transition: 0.5s
+}
+@media (min-width: 1400px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}
+}
+@media (max-width: 768px) {
+.navbar {   
+    background-color: #3949ab !important;
+}
+}
+/* ==================== In Header ==================== */
+.container_custom_2 {
+    position: relative;
+    bottom: 67vh;
+    z-index: 1;
+}
+.row_custom {
+    font-family Roboto, sans-serif;
+    line-height: 24px;
+    color: white;
+}
+.hp_custom {
+    font-weight: 0;
+    opacity: 0.9;
+    font-size: 0.95rem;
+}
+.hh_custom {
+    font-weight: 1000;
+}
+.hb_custom1 {
+    position: relative;
+    top: 30px;
+    margin-right: 10px;
+    background-color: white !important;
+    color: rgb(79, 79, 79) !important;
+    font-size: 12.96px;
+    width: 156px;
+    height: 46.3px;
+    font-weight: 1000;
+}
+.hb_custom2 {
+    position: relative;
+    top: 30px;
+    margin-right: 10px;
+    width: 151.27px;
+    height: 45.8px;
+    background-color: transparent !important;
+    border: 2px solid white;
+    font-size: 12.96px;
+}
+.hb_custom2:hover {
+    border: 2px solid white;
+}
+@media (max-width: 992px) {
+.hp_custom {   
+    font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+    .col-sm-12 {   
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .hp_custom {   
+        font-size: 1rem;
+    }
+}
+/* ==================== In Header ==================== */
 /* ==================== Header ==================== */

@@ -8,22 +8,17 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
       <link rel="stylesheet" href="assets/stylesheets/StyleMine.css">
       <title>Document</title>
-      <style>
-         .navbar.scrolled {
-         background-color: black !important;
-         }
-      </style>
    </head>
    <body>
       <!-- ======================================== Header ======================================== -->
       <div class="ragaca">
          <header class="container-fluid px-0">
             <nav class="navbar navbar-expand-lg bg-light px-3 pt-3 pb-3 fixed-top">
-               <div class="row row_custom">
-                  <div class="col-6">
+               <div class="container container_custom">
                      <a class="navbar-brand navbar-brand_custom" href="#"><strong>Material Landing</strong></a>
-                  </div>
-                  <div class="col-6">
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
                      <div class="collapse navbar-collapse collapse_custom" id="navbarSupportedContent">
                         <ul class="navbar-nav mb-2 mb-lg-0">
                            <li class="nav-item">
@@ -46,16 +41,25 @@
                            </li>
                         </ul>
                      </div>
-                  </div>
                </div>
             </nav>
          </header>
       </div>
+      <!-- ======================================== In Header ======================================== -->
+      <div class="container container_custom_2">
+         <div class="row row_custom">
+            <div class="col-xl-6 col-lg-7 col-md-9 col-sm-12">
+               <h1 class="hh_custom">Your Success is Our Mission.</h1>
+               <p class="hp_custom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi fuga nesciunt dolorum nulla magnam veniam sapiente, fugiat! Commodi sequi non animi ea dolor molestiae iste.</p>
+               <button type="button" class="btn btn-primary hb_custom1"><img src="img/play1.png" width="20px" height="25px">VIEW DEMO</button>
+               <button type="button" class="btn btn-primary hb_custom2">LEARN MORE</button>
+            </div>
+         </div>
+      </div>
+      <!-- ======================================== In Header ======================================== -->
       <!-- ======================================== Header ========================================    -->
-      <script>
-         $(window).scroll(function(){
-         $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
-         });
-      </script>
+      <script src="assets/Js.js"></script>
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
    </body>
 </html>
