@@ -1,12 +1,11 @@
+/* ==================== Start ======================== */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap');
-/* ==================== Start ==================== */
 body {
     margin: 0;
-    height: 500vh;
 }
-/* ==================== Start ==================== */
-/* ==================== Header ==================== */
-.container-fluid {
+/* ==================== Start ======================== */
+/* ==================== Header ======================= */
+.hcontainer_custom {
     height: 108vh;
     position: relative;
     background: rgba(42, 27, 161, 0.7);
@@ -15,8 +14,8 @@ body {
 
 .ragaca {
     height: 108vh;
-    position: relative;
     bottom: 8vh;
+    position: relative;
     background-image: url('../../IMG/panorama-3094696_1920.jpg');
     background-size: cover;
 }
@@ -51,6 +50,7 @@ body {
     z-index: 12;  
 }
 .btn-primary {
+    margin-left: 5px;
     background-color: #4285f4 !important;
     cursor: pointer;
     border: none;
@@ -95,6 +95,8 @@ body {
     position: relative;
     bottom: 67vh;
     z-index: 1;
+    right: 50vw;
+    opacity: 0;
 }
 .row_custom {
     font-family Roboto, sans-serif;
@@ -137,6 +139,7 @@ body {
 .hp_custom {   
     font-size: 0.9rem;
 }
+}
 @media (max-width: 768px) {
     .col-sm-12 {   
         text-align: center;
@@ -147,5 +150,84 @@ body {
         font-size: 1rem;
     }
 }
+.ha_custom {
+    animation: test 1s ease forwards;
+}
+@keyframes test {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.25;
+    }
+    70% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(50vw);
+    }
+}
 /* ==================== In Header ==================== */
-/* ==================== Header ==================== */
+/* ==================== Header ======================= */
+/* ==================== Section 1 ==================== */
+.scontainer_custom {
+    position: relative;
+    bottom: 8vh;
+}
+.srow_custom {
+
+}
+.s1_icon_custom {
+    color: white;
+    transform: scale(0.5);
+}
+.s1_col1_custom {
+    background-color: #7e57c2;
+}
+.s1_col2_custom {
+    background-color: #ab47bc;
+}
+.s1_col3_custom {
+    background-color: #26a69a;
+}
+.s1_col4_custom {
+    background-color: #29b6f6;
+}
+.s1_c_custom {
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    padding: 48px;
+}
+.s1_h2_custom {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    transform: scale(0.5);
+}
+.s1_p_custom {
+    margin-top: 48px;
+    margin-bottom: 16px;
+    transform: scale(0.5);
+}
+.anotherone {
+    transition: 1s ease-in-out;
+    opacity: 1;
+    transform: scale(1) !important;
+}
+.anotherone2 {
+    transition: 1s ease-in-out;
+    opacity: 1;
+    transform: scale(1) !important;
+}
+.anotherone3 {
+    transition: 1s ease-in-out;
+    opacity: 1;
+    transform: scale(1) !important;
+}
+/* ==================== Section 1 ==================== */
