@@ -64,4 +64,19 @@ window.addEventListener('scroll', function () {
     let windowPosition2 = window.scrollY > 10;
     header2.classList.toggle('anotherone3', windowPosition2);
 })
+window.addEventListener('scroll', function () {
+    let header2 = document.querySelector('.s2_anime1_custom');
+    let windowPosition2 = window.scrollY > 600;
+    header2.classList.toggle('anotherone4', windowPosition2);
+})
+window.addEventListener('scroll', function () {
+    let header2 = document.querySelector('.s2_anime2_custom');
+    let windowPosition2 = window.scrollY > 600;
+    header2.classList.toggle('anotherone5', windowPosition2);
+})
+window.addEventListener('scroll', function () {
+    let header2 = document.querySelector('.s2_anime3_custom');
+    let windowPosition2 = window.scrollY > 600;
+    header2.classList.toggle('anotherone6', windowPosition2);
+})
 

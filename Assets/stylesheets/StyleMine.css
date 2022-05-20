@@ -236,6 +236,7 @@ body {
     background-color: #f5f5f5;
     position: relative;
     bottom: 8vh;
+    padding-bottom: 80px;
 }
 .s2_h_custom {
     font-family: Roboto, sans-serif;
@@ -246,12 +247,15 @@ body {
 }
 .s2_p_custom {
     font-family: Roboto, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 100;
     line-height: 30px;
     text-align: center;
     color: #607d8b;
     opacity: 0.8;
+    margin-top: 25px;
+    padding-left: 125px;
+    padding-right: 125px;
 }
 .s2_row_custom {
     display: flex;
@@ -260,7 +264,75 @@ body {
 .s2_col_custom {
     padding-top: 96px;
 }
+/* ==================== Section 3 ==================== */
+.s2_p1_custom {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: center;
+}
+.s2_p2_custom {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    opacity: 0.6;
+}
+.s2_col2_custom {
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.orange-text {
+    color: orange;
+}
+.cyan-text {
+    color: cyan;
+}
+.red-text {
+    color: red;
+}
+.s2_row2_custom {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.s2_anime1_custom {
+    position: relative;
+    top: 25vh;
+    opacity: 0;
+}
+.s2_anime2_custom {
+    position: relative;
+    top: 25vh;
+    opacity: 0;
+}
+.s2_anime3_custom {
+    position: relative;
+    top: 25vh;
+    opacity: 0;
+}
+.anotherone4 {
+    transform: translateY(-25vh);
+    transition: 0.8s ease-in-out;
+    opacity: 1;
+}
+.anotherone5 {
+    transform: translateY(-25vh);
+    transition: 0.8s ease-in-out;
+    opacity: 1;
+    transition-delay: 0.20s;
+}
+.anotherone6 {
+    transform: translateY(-25vh);
+    transition: 0.8s ease-in-out;
+    opacity: 1;
+    transition-delay: 0.4s;
+}
+/* ==================== Section 3 ==================== */
 /* ==================== Section 2 ==================== */
-/* ==================== Section 3 ==================== */
-
-/* ==================== Section 3 ==================== */
