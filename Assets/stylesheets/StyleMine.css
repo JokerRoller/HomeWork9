@@ -231,3 +231,36 @@ body {
     transform: scale(1) !important;
 }
 /* ==================== Section 1 ==================== */
+/* ==================== Section 2 ==================== */
+.s2_container_custom {
+    background-color: #f5f5f5;
+    position: relative;
+    bottom: 8vh;
+}
+.s2_h_custom {
+    font-family: Roboto, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+}
+.s2_p_custom {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 30px;
+    text-align: center;
+    color: #607d8b;
+    opacity: 0.8;
+}
+.s2_row_custom {
+    display: flex;
+    justify-content: center;
+}
+.s2_col_custom {
+    padding-top: 96px;
+}
+/* ==================== Section 2 ==================== */
+/* ==================== Section 3 ==================== */
+
+/* ==================== Section 3 ==================== */
