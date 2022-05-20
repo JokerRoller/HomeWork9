@@ -79,4 +79,9 @@ window.addEventListener('scroll', function () {
     let windowPosition2 = window.scrollY > 600;
     header2.classList.toggle('anotherone6', windowPosition2);
 })
+window.addEventListener('scroll', function () {
+    let header2 = document.querySelector('.s4_anime4_custom');
+    let windowPosition2 = window.scrollY > 1100;
+    header2.classList.toggle('anotherone7', windowPosition2);
+})
 

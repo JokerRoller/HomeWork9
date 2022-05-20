@@ -336,3 +336,71 @@ body {
 }
 /* ==================== Section 3 ==================== */
 /* ==================== Section 2 ==================== */
+/* ==================== Section 4 ==================== */
+.s4_h_custom {
+    font-family: Roboto, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 15px;
+}
+.s4_p_custom {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+    text-align: center;
+    color: #607d8b;
+    opacity: 0.8;
+    margin-top: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.s4_row_custom {
+    width: 40%;
+    margin-right: 60px;
+}
+.s4_row2_custom {
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12.5px;
+}
+.s4_row3_custom {
+    width: 50%;
+    display: flex;
+}
+.deep-purple-text {
+    color: purple;
+}
+.s4_icon_custom {
+    margin-bottom: 96px;
+}
+.s4_p1_custom {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+.s4_p2_custom {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    opacity: 0.6;
+}
+.s4_row22_custom {
+    margin-top: 50px;
+    position: relative;
+    right: 100vw;
+    opacity: 0;
+}
+.anotherone7 {
+    transform: translateX(100vw);
+    transition: 1s ease-out;
+    opacity: 1;
+}
+/* ==================== Section 4 ==================== */
